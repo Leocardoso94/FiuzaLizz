@@ -1,0 +1,187 @@
+.panel-default {
+  border: 1px solid #e8e8e8;
+  border-top: 2px solid #bfbfbf;
+}
+
+.panel-default .panel-heading {
+  color: #595959;
+  border-color: #e8e8e8;
+  background: #fcfcfc;
+}
+
+.panel {
+  border-radius: 0px;
+}
+.panel .panel-heading {
+  position: relative;
+}
+.panel-heading h3 i {
+  margin-right: 8px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.panel-heading i {
+  font-size: 16px;
+  font-weight: 500;
+}
+.panel-heading h3 {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* Primary Panel */
+.panel-primary {
+  border: 1px solid #c3e4f6;
+  border-top: 2px solid #5cb7e7;
+}
+
+.panel-primary .panel-heading {
+  color: #373737;
+  border-color: #96d0f0;
+  background: white;
+}
+
+
+
+.tile {
+    margin-bottom: 15px;
+    border-radius: 3px;
+    background-color: #000;
+    color: #FFFFFF;
+    transition: all 1s;
+}
+.tile a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.tile-heading {
+    padding: 5px 8px;
+    text-transform: uppercase;
+    background-color: #373737;
+    color: #FFF;
+}
+.tile-body {
+    padding: 15px;
+    color: #FFFFFF;
+    line-height: 48px;
+}
+.tile .tile-body i {
+    font-size: 50px;
+    opacity: 0.3;
+    transition: all 1s;
+}
+.tile-footer {
+    padding: 5px 8px;
+    background-color: #373737;
+}
+
+.tile .tile-body h2 {
+    font-size: 42px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.product-cart-image img {
+    width: 40px;
+    float: left;
+    height: 40px;
+}
+
+table img.img-thumbnail {
+	height: 4em;
+	width: 4em;
+}
+table,th,td{
+	text-align: center;
+}
+
+#tipo{
+	display: none;
+}
+
+#imgatual{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 5px;
+}
+
+.del{
+	width: 38px;
+	height: 34px;
+}
+h4.failLogin {
+    color: red;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+body {
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 12px;
+    color: #666666;
+    text-rendering: optimizeLegibility
+}
+.well{
+    background-color:#fff!important;
+    border-radius:0!important;
+    border:none!important;
+}
+
+.well.login-box {
+    width:300px;
+    margin:0 auto;    
+}
+.well.login-box legend {
+  font-size:26px;
+  text-align:center;
+  font-weight:300;
+}
+.well.login-box label {
+  font-weight:300;
+  font-size:16px;
+  
+}
+.well.login-box input[type="text"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+
+.well.welcome-text{
+    font-size:21px;
+}
+
+/* Notifications */
+
+.notification{
+    position:fixed;
+    top: 20px;
+    right:0;
+    background-color:#FF4136;
+    padding: 20px;
+    color: #fff;
+    font-size:21px;
+    display:none;
+}
+.notification-success{
+  background-color:#3D9970;
+}
+
+.notification-show{
+    display:block!important;
+}
+
+/*Loged in*/
+.logged-in{
+  display:none;
+}
+.logged-in h1{
+  margin:0;
+  font-weight:300;
+}
