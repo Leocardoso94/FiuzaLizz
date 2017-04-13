@@ -37,8 +37,8 @@ foreach($_SESSION['carrinho'] as $id => $qtd){
 
 	mysqli_query($con,"INSERT INTO `produto_pedido` (`idProduto`, `idPedido`, Quantidade) VALUES ('".$id."', '".$idPedido."', '".$qtd."');");
 }
-$data['token'] ='64BE8EE1FD904AB988225E28B15B07E8';
-$data['email'] = 'leocardosoti@gmail.com';
+$data['token'] ='****************************';
+$data['email'] = '******************';
 $data['currency'] = 'BRL';
 $data['itemId1'] = '1';
 $data['itemQuantity1'] = '1';
