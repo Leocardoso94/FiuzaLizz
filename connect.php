@@ -6,10 +6,10 @@ ini_set('default_charset','UTF-8');
 ini_set( 'default_charset', 'UTF-8' );
 ini_set( 'mbstring.http_output', 'UTF-8' );
 ini_set( 'mbstring.internal_encoding', 'UTF-8' );
-$servername = "localhost";
-$username = "root";
+$servername = " sql101.rf.gd";
+$username = " rfgd_20322866";
 $password = "";
-$database = 'fiuzalizz';
+$database = 'rfgd_20322866_fiuzalizz';
 try {
 	$conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
 	header('Content-Type: text/html; charset=utf-8');
@@ -39,7 +39,8 @@ if (!$mysqli->set_charset("utf8")) {
 }
 
 $mysqli->close();
-$con=mysqli_connect("localhost","root","","fiuzalizz");
+$con=mysqli_connect(" sql101.rf.gd"," rfgd_20322866","","rfgd_20322866_fiuzalizz
+");
 
 
 
